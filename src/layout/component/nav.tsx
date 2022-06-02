@@ -29,7 +29,7 @@ export default function Nav() {
     return (
         <NavWrapper>
             <Ul>
-                <Li to="/home">Home</Li>
+                <Li to="/">Home</Li>
                 <Li to="/about">About</Li>
                 <Li to="/contact">Contact</Li>
             </Ul>
