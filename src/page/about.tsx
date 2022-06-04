@@ -1,5 +1,4 @@
 import { Main } from "../layout/component/main";
-import styled from "@emotion/styled";
 
 export default function About() {
   return (
@@ -23,8 +22,8 @@ export default function About() {
           <h5>Backend</h5>
           <p>
             Server : Flask, FastAPI, NodeJS, PHP <br />
-            SQL : MySQL, GraphQL Deploy : AWS Lambda, Step Function, AWS EC2
-            (PM2)
+            SQL : MySQL, GraphQL <br />
+            Deploy : AWS Lambda, Step Function, AWS EC2
           </p>
 
           <h5>Computer Vision</h5>
@@ -39,7 +38,7 @@ export default function About() {
         <h3>Where am I?</h3>
         <p>
           머신러닝에 관심을 갖고 시작하여 <br />
-          이제는 머신러닝을 보여주고 구동하는 면에 <br />더 큰 관심을 가지고
+          이제는 머신러닝을 보여주고 구동하는 것에 <br />더 큰 관심을 가지고
           있습니다
         </p>
       </section>
