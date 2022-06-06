@@ -1,4 +1,8 @@
-{
+interface jsonType {
+    [key: string]: any;
+}
+
+export const FOOD: jsonType = {
     "question" : [
         {
             "type": "radio",
@@ -18,7 +22,7 @@
         {
             "type": "radio",
             "question": "따듯한 VS 차가운",
-            "options" : ["따듯", "차가"]
+            "options" : ["따듯한", "차가운"]
         }
     ],
     "answer" : {

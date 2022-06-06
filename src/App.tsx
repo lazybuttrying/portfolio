@@ -7,6 +7,7 @@ import Contact from "./page/contact";
 import Quiz from "./page/choice/quiz";
 import Food from "./page/choice/food";
 import { Main } from "./layout/component/main";
+import Result from "./page/choice/result";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="quiz" element={<Quiz />} />
           <Route path="quiz/food" element={<Food />} />
+          <Route path="quiz/food/result" element={<Result />} />
         </Routes>
       </Main>
 

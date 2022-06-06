@@ -27,7 +27,7 @@ interface PageObject {
   [key: string]: number;
 }
 
-const pages: PageObject = { about: 1, contact: 2 };
+const pages: PageObject = { about: 1, quiz: 2, contact: 3 };
 
 export default function Header() {
   let location: Location = useLocation();
