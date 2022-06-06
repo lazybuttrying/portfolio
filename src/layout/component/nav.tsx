@@ -1,34 +1,19 @@
 import styled from "@emotion/styled";
-import { Link } from "react-router-dom";
+import { Ul, LinkWrapper as Link } from "./list";
 
 let NavWrapper = styled.nav``;
-
-let Ul = styled.ul`
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  line-height: 3em;
-`;
-
-let Li = styled(Link)`
-  text-decoration: none;
-  font-size: 1em;
-  &:link {
-    color: white;
-  }
-  &:visited {
-    color: var(--primary-color);
-  }
-`;
 
 export default function Nav() {
   return (
     <NavWrapper>
       <Ul>
-        <Li to="/">Home</Li>
-        <Li to="/about">About</Li>
-        <Li to="/contact">Contact</Li>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/quiz">Quiz</Link>
       </Ul>
     </NavWrapper>
   );
 }
+
+export { Nav };

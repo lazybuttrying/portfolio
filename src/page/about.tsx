@@ -1,8 +1,6 @@
-import { Main } from "../layout/component/main";
-
 export default function About() {
   return (
-    <Main>
+    <>
       <section>
         <h3>Who am I?</h3>
         <p>
@@ -62,6 +60,6 @@ export default function About() {
           </p>
         </article>
       </section>
-    </Main>
+    </>
   );
 }
